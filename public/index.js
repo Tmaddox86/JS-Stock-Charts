@@ -6,12 +6,12 @@ async function main() {
 
 }
 
-const { GME, MSFT, DIS, BNTX } = mockData;
+const { BNTX } = mockData;
 
-const stocks = [GME, MSFT, DIS, BNTX];
+const stock = [GME, MSFT, DIS, BNTX];
 
 
-main(07b0ae594b064ffc839ee15f41d4184f)
+main()
 let response = await fetch('GME','MSFT','DIS','BNTX');
 let resultObject = await response.json();
 console.log()
